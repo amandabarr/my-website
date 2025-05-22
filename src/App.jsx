@@ -3,11 +3,22 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 function Home() {
-  return <h1>Home Page</h1>;
+  return (
+    <main>
+      <h1>Home Page</h1>
+      <p> Welcome to my website! </p>
+    </main>
+  );
 }
 
 function About() {
   return <h1>About Page</h1>;
+}
+
+function Blog() {
+  return (
+    <h1>About Page</h1>;
+  )
 }
 
 function App() {
